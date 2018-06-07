@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Material Zester</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="pink">Pink</string>
+    <string name="teal">Teal</string>
+    <string name="indigo">Indigo</string>
+    <string name="ruby_designs">Made by Ruby Designs</string>
+</resources>
