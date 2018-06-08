@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button indigobutton;
     Button tealbutton;
     Button pinkbutton;
+    Button defaultbutton;
     ConstraintLayout backlayout;
     TextView selectColor;
     @Override
@@ -31,6 +32,17 @@ public class MainActivity extends AppCompatActivity {
         pinkbutton=findViewById(R.id.pinkbutton);
         backlayout=findViewById(R.id.backlayout);
         selectColor=findViewById(R.id.selectColor);
+        defaultbutton=findViewById(R.id.defaultbutton);
+
+        defaultbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                backlayout.setBackgroundColor(Color.WHITE);
+                selectColor.setText(getResources().getText(R.string.selectcolor));
+                selectColor.setTextColor(Color.BLACK);
+            }
+        });
+
     }
     public void onClickBlue(View view){
 
